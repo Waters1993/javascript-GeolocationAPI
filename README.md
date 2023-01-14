@@ -21,9 +21,9 @@ I added JavaScript to add dynamic and interactive content to the page such as a 
   <p>Landing Page</p>
   <img src="./images/landing.PNG" alt="landingPage" width="650"/>
    <p>Tabbed component</p>
-  <img src="./images/tabbed.PNG" alt="landingPage" width="650"/>
+  <img src="./images/running.PNG" alt="landingPage" width="650"/>
  <p>Slider componet</p>
-  <img src="./images/slider.PNG" alt="landingPage" width="650"/>
+  <img src="./images/workouts.PNG" alt="landingPage" width="650"/>
 </div>
 
 ## Built With
