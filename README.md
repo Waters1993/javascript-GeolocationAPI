@@ -1,6 +1,6 @@
 # Geolocation API Workout Tracker
 
-[Experiment with the live version.]()
+[Experiment with the live version.](https://waters1993.github.io/javascript-GeolocationAPI/) See your current location and add some workouts!
 
 ## Motivation & Acknowledgements
 
