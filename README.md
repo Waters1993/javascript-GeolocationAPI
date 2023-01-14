@@ -9,20 +9,26 @@ This project was created while completing "The Complete JavaScript Course 2021: 
 ## Work Vs. Template Code
 
 HTML elements and CSS styling were provided as a template file.<br>
-I added JavaScript to add dynamic and interactive content to the page such as a sticky nav bar, a tabbed component, and a slider component. I utilized the intersection observer API to add smooth transitions to each section. Performance considerations included lazy loading images and efficient script loading.<br>
+I utilized the external JavaScript library Leaflet to render a map to the client window.<br>
+This was combined with the GeolocationAPI to display the map at the users current location.<br> The application can then store workouts at locations selected on the map. Workouts are stored in local storage so the state is maintained after closing out the appication. <br>
+The design architechture used for this project was object oriented design with Classes. The Application Class contains all of the methods to get the users current location and render the map and handle user clicks. Each workout class, Running or Cycling, inherits properties from a parent Workout Class. Data for each workout is stored within objects created from these Classes.
 
 ## JavaScript concepts and techniques used
 
-- 
+- Object oriented programming and design approach (Creating Classes)
+- Geolocation API
+- Leaflet external JavaScript library
+- Local storage
+- Agile project planning (user stories, iteration etc.)
 
 ## Site images
 
 <div align="center">
   <p>Landing Page</p>
   <img src="./images/landing.PNG" alt="landingPage" width="650"/>
-   <p>Tabbed component</p>
+   <p>Running workout added</p>
   <img src="./images/running.PNG" alt="landingPage" width="650"/>
- <p>Slider componet</p>
+ <p>Multiple workouts</p>
   <img src="./images/workouts.PNG" alt="landingPage" width="650"/>
 </div>
 
@@ -31,6 +37,7 @@ I added JavaScript to add dynamic and interactive content to the page such as a 
 - HTML
 - CSS
 - JavaScript
+- GeolocationAPI, Leaflet library
 - VS Code
 - Git
 
